@@ -14,20 +14,20 @@ header .first-nav {
   padding-left: 5%;
 }
 
-header .first-nav form {
+header .first-nav .right-sect {
   position: relative;
 }
 
-header .first-nav form i {
+header .first-nav .right-sect i {
   position: absolute;
-  color: grey;
+  color: #a8a7a7;
   top: 13px;
   left: 15px;
 }
 
-header .first-nav form input {
+header .first-nav .right-sect input {
   width: 200px;
-  padding-left: 50px;
+  padding-left: 40px;
   border-radius: 10px;
 }
 
@@ -72,36 +72,71 @@ footer {
   margin-top: 4%;
 }
 
-footer .footer-left-side img {
+footer .first-part {
+  padding-top: 5%;
+}
+
+footer .first-part .footer-left-side img {
   width: 100px;
 }
 
-footer .footer-left-side p {
+footer .first-part .footer-left-side p {
   margin: 25px 0 50px 0;
   font-size: 16px !important;
 }
 
-footer .footer-left-side h5 {
-  font-size: 32px !important;
-}
-
-footer ul h4 {
+footer .first-part ul h4 {
   margin-bottom: 15px;
   font-size: 16px;
 }
 
-footer ul li {
+footer .first-part ul li {
   padding: 9px 0;
   list-style-type: none;
 }
 
-footer ul li a {
+footer .first-part ul li a {
   color: white;
   text-decoration: none;
   font-size: 14px;
 }
 
-footer ul li a:hover {
+footer .first-part ul li a:hover {
   color: white;
+}
+
+footer .second-part .footer-input {
+  position: relative;
+}
+
+footer .second-part .footer-input input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #e2e8e2;
+  border-inline-start-width: 20px red;
+  -webkit-mask-box-image-width: 20px;
+          mask-border-width: 20px;
+}
+
+footer .second-part .footer-input ::-webkit-input-placeholder {
+  color: white;
+}
+
+footer .second-part .footer-input :-ms-input-placeholder {
+  color: white;
+}
+
+footer .second-part .footer-input ::-ms-input-placeholder {
+  color: white;
+}
+
+footer .second-part .footer-input ::placeholder {
+  color: white;
+}
+
+footer .second-part .footer-input .icon {
+  position: absolute;
+  right: 25%;
+  bottom: 15%;
 }
 /*# sourceMappingURL=main.css.map */
