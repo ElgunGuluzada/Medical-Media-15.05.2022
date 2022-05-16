@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #047cb0;
+}
+
+header .first-nav {
+  border-bottom: 1px solid #409dc5;
+}
+
+header .first-nav form {
+  position: relative;
+}
+
+header .first-nav form i {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+}
+
+header .head-content a {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

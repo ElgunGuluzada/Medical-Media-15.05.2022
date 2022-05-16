@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(4, 124, 176);
+
+    .first-nav {
+        border-bottom: 1px solid rgb(64, 157, 197);
+
+        form {
+            position: relative;
+
+            i {
+                position: absolute;
+                top: 13px;
+                left: 10px;
+            }
+        }
+    }
+
+    .head-content {
+        a {
+            color: white;
+        }
+    }
+}
