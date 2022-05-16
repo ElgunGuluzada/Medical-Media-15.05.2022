@@ -6,24 +6,38 @@
 
 header {
     background-color: rgb(4, 124, 176);
-
     .first-nav {
-        border-bottom: 1px solid rgb(64, 157, 197);
+        width: 90%;
+        padding-left: 5%;
 
         form {
             position: relative;
 
             i {
                 position: absolute;
+                color: grey;
                 top: 13px;
-                left: 10px;
+                left: 15px;
+            }
+            input{
+                width: 200px;
+                padding-left: 50px;
+                border-radius: 10px;
             }
         }
     }
+    .second-nav{
+        padding-bottom: 15px;
+    }
 
     .head-content {
+        width: 90%;
+        padding-left: 8%;
         a {
             color: white;
+            &:hover{
+                color: white;
+            }
         }
     }
 }
@@ -32,28 +46,72 @@ main {
     .container {
         .row {
             .head-section {
-                width: 96%;
+                width: 95%;
                 background-color: rgb(4, 124, 176);
                 border-radius: 10px;
                 padding-top: 15px !important;
-                margin-left: 2%;
+                margin-left: 2.5%;
             }
-            .card-section{
-            .card{
-                border-radius: 25px;
-                height: auto;
-                margin: 0 10px;
-                img{
-                    height: 250px;
-                    border-radius: 10px 10px 0 0;
+
+            .card-section {
+                .card {
+                    border-radius: 10px;
+                    height: auto;
+                    margin: 0 20px;
+
+                    img {
+                        height: 250px;
+                        border-radius: 10px 10px 0 0;
+                    }
                 }
             }
-            }
         }
-        }
-       
+    }
+
 }
 
 footer {
     background-color: rgb(4, 124, 176);
+    margin-top: 4%;
+
+    .footer-left-side {
+        img {
+            width: 100px;
+        }
+
+        p {
+            margin: 25px 0 50px 0;
+            font-size: 16px !important;
+        }
+
+        h5 {
+            font-size: 32px !important;
+        }
+    }
+
+    ul {
+        h4 {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        li {
+            padding: 9px 0;
+            list-style-type: none;
+
+
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 14px;
+
+                &:hover {
+                    color: white;
+                }
+            }
+
+        }
+    }
+
 }
